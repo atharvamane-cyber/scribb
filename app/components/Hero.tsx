@@ -7,7 +7,7 @@ import {
   RegisterLink,
 } from "@kinde-oss/kinde-auth-nextjs/components";
 import { Button } from "@/components/ui/button";
-import HeroImage from "@/public/hero.png";
+import HeroImage from "@/public/Hero.png";
 
 export function Hero() {
   return (
