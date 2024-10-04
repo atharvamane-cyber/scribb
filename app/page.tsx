@@ -9,6 +9,7 @@ import { Hero } from "./components/Hero";
 import { Logos } from "./components/Logo";
 import { Features } from "./components/Features";
 import { PricingTable } from "./components/Pricing";
+import Footer from "./components/Footer";
 import { redirect } from "next/navigation";
 
 export default async function Home() {
@@ -25,6 +26,7 @@ export default async function Home() {
       <Logos />
       <Features />
       <PricingTable />
+      <Footer />
       
     </div>
   );

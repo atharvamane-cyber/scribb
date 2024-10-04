@@ -39,7 +39,7 @@ export const PricingPlans: iAppProps[] = [
     cardTitle: "Startup",
     cardDescription: "Ideal for growing businesses that need more resources to scale. Includes advanced features to manage larger projects.",
     priceTitle: "₹599/month",
-    benefits: [
+    benefits: [  
       "Unlimited Hosted Sites",
       "Unlimited Visitors",
       "Priority Support",
@@ -98,11 +98,11 @@ export function PricingTable() {
             <CardFooter>
               {item.id === 0 ? (
                 <LoginLink>
-                  <Button className="w-full mt-4">Start for Free</Button>
+                  <Button className="w-full mt-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">Start for Free</Button>
                 </LoginLink>
               ) : (
                 <RegisterLink>
-                  <Button className="w-full mt-4">Get Started</Button>
+                  <Button className="w-full mt-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">Get Started</Button>
                 </RegisterLink>
               )}
             </CardFooter>

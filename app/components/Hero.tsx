@@ -19,23 +19,23 @@ export function Hero() {
             <span className="text-sm text-primary font-medium tracking-tight bg-primary/10 px-4 py-2 rounded-full">
               Ultimate Notes SaaS for People
             </span>
+            <h1 className="mt-8 text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight text-gray-800 transition duration-300 ease-in-out transform hover:scale-105 hover:text-gray-900">
+                 Setup your Notes{" "}
+                 <span className="block text-primary">Easily!</span>
+                  </h1>
 
-            <h1 className="mt-8 text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-medium leading-none">
-              Setup your Notes{" "}
-              
-              <span className="block text-primary">Easily!</span>
-            </h1>
 
+  
             <p className="max-w-xl mx-auto mt-4 text-base font-light lg:text-lg text-muted-foreground tracking-tighter">
               Setting up your Notes is hard and time consuming. We make it easy
               for you to create a Notes in Seconds
             </p>
             <div className="flex items-center gap-x-5 w-full justify-center mt-5 ">
               <LoginLink>
-                <Button variant="secondary">Sign in</Button>
+                <Button variant="secondary" className="px-6 py-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">Sign in</Button>
               </LoginLink>
               <RegisterLink>
-                <Button>Try for free</Button>
+                <Button className="px-6 py-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">Try for free</Button>
               </RegisterLink>
             </div>
           </div>

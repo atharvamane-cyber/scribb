@@ -18,7 +18,7 @@ export function Logos() {
         <Image
           src={Atm}
           alt="Atm Logo"
-          className="max-h-13 w-full object-contain dark:invert"
+          className="max-h-15 w-full object-contain dark:invert"
         />
         <Image
           src={Apple}
@@ -33,7 +33,7 @@ export function Logos() {
            <Image
           src={Btm}
           alt="Btm  Logo"
-          className="max-h-15 w-full object-contain dark:invert"
+          className="max-h-28 w-full object-contain dark:invert"
         />
         
 
