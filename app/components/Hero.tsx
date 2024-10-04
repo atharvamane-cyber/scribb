@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/logo.svg";
+import Logo from "/public/logo.svg";
 import { ThemeToggle } from "../dashboard/ThemeToggle";
 import {
   LoginLink,
   RegisterLink,
 } from "@kinde-oss/kinde-auth-nextjs/components";
 import { Button } from "@/components/ui/button";
-import HeroImage from "@/public/Hero.png";
+import HeroImage from "/public/Hero.png";
 
 export function Hero() {
   return (

@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-import Nextjs from "@/public/Nextjs.svg";
-import Apple from "@/public/Apple.svg";
-import Netflix from "@/public/Netflix.svg"
-import Amex from "@/public/Amex.svg"
-import Atom from "@/public/Atom.svg"
+import Nextjs from "/public/Nextjs.svg";
+import Apple from "/public/Apple.svg";
+import Netflix from "/public/Netflix.svg"
+import Amex from "/public/Amex.svg"
+import Atom from "/public/Atom.svg"
 
 export function Logos() {
   return (
