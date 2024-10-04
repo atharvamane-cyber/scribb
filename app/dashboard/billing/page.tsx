@@ -18,12 +18,15 @@ import {
 import { unstable_noStore as noStore } from "next/cache";
 
 const featureItems = [
-  { name: "Lorem Ipsum something" },
-  { name: "Lorem Ipsum something" },
-  { name: "Lorem Ipsum something" },
-  { name: "Lorem Ipsum something" },
-  { name: "Lorem Ipsum something" },
+  { name: "For Test Mode use any of these" },
+  { name: "card no 4242 4242 4242 4242 " },
+  { name: "card no 5555 5555 5555 4444 " },
+  { name: " and any future date" },
+  { name: "and any 3-digit CVC" },
+  { name: "and any value of your choice" },
 ];
+
+
 
 async function getData(userId: string) {
   noStore();
@@ -132,10 +135,10 @@ export default async function BillingPage() {
           </div>
 
           <div className="mt-4 flex items-baseline text-6xl font-extrabold">
-            $30 <span className="ml-1 text-2xl text-muted-foreground">/mo</span>
+          ₹599 <span className="ml-1 text-2xl text-muted-foreground">/mo</span>
           </div>
           <p className="mt-5 text-lg text-muted-foreground">
-            Write as many notes as you want for $30 a Month
+            Write as many notes as you want for ₹599 a Month
           </p>
         </CardContent>
         <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-secondary rounded-lg m-1 space-y-6 sm:p-10 sm:pt-6">
