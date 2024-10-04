@@ -36,7 +36,7 @@ export function Features() {
           Organize your ideas in seconds
         </h1>
         <p className="mt-6 text-base leading-snug text-muted-foreground">
-          Whether you're brainstorming, writing a to-do list, or jotting down
+          Whether youre brainstorming, writing a to-do list, or jotting down
           important information, our app helps you stay organized and efficient.
         </p>
       </div>

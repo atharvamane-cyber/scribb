@@ -59,7 +59,7 @@ export function PricingTable() {
       </div>
 
       <p className="mx-auto mt-6 max-w-2xl text-center leading-tight text-muted-foreground">
-        Whether you're a freelancer or a startup, we have a plan that suits your budget and business needs. No hidden fees, just straightforward pricing.
+        Whether youre a freelancer or a startup, we have a plan that suits your budget and business needs. No hidden fees, just straightforward pricing.
       </p>
 
       <div className="grid grid-cols-1 gap-8 mt-16 lg:grid-cols-2">
