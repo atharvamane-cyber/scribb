@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import nextjs from "/public/nextjs.svg";
+
 import Apple from "/public/Apple.svg";
 import Netflix from "/public/Netflix.svg"
 import Amex from "/public/Amex.svg"
@@ -14,8 +14,8 @@ export function Logos() {
       </h2>
       <div className="mt-10 grid max-w-lg mx-auto grid-cols-2 sm:max-w-xl sm:grid-cols-3 lg:mx-0 lg:max-w-none lg:grid-cols-5 gap-x-8 gap-y-10 items-center">
         <Image
-          src={nextjs}
-          alt="Next.js Logo"
+          src={Atom}
+          alt="Atom Logo"
           className="max-h-12 w-full object-contain dark:invert"
         />
         <Image
