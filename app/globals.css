@@ -550,3 +550,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.zoom-effect {
+  display: inline-block;
+  animation: zoomInOut 3s infinite ease-in-out; 
+}
+
+@keyframes zoomInOut {
+  0%, 100% {
+    transform: scale(1); 
+  }
+  50% {
+    transform: scale(1.1); 
+  }
+}
